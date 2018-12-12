@@ -1,0 +1,27 @@
+{
+  "projectName":"VCIUS",
+  "prefix":"!v",
+  "prefixSeperated":true,
+  "commands":[
+    {"command":"hola","response":"Que dises ${user}"}
+  ],
+  "ccParams":[
+    "${user}",
+    "${userAvatar}",
+    "${channel}",
+    "${server}",
+    "${serverIcon}",
+    "${onlineMembers}",
+    "${totalMembers}"
+  ],
+  "scripts":{
+    "start":"pm2 start --name \"81491674\" node index.js",
+    "stop":"pm2 delete 81491674",
+    "logs":"pm2 logs 81491674 --nostream --json"
+  },
+  "name":"VCIUS",
+  "status":{
+    "style":"WATCHING",
+    "text":"t.tv/FabioWolfen"
+  }
+}
