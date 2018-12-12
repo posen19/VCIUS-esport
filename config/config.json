@@ -3,7 +3,10 @@
   "prefix":"!v",
   "prefixSeperated":true,
   "commands":[
-    {"command":"hola","response":"Que dises ${user}"}
+    {
+      "command":"hola",
+      "response":"Que dises ${user}"
+    }
   ],
   "ccParams":[
     "${user}",
