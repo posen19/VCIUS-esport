@@ -1,0 +1,43 @@
+{
+  "prefix":"!v",
+  "prefixSeperated":true,
+  "commands":[
+    {
+      "command":"hola",
+      "response":"Que dises ${user}"
+    }
+  ],
+  "ccParams":[
+    "${user}",
+    "${userAvatar}",
+    "${channel}",
+    "${server}",
+    "${serverIcon}",
+    "${onlineMembers}",
+    "${totalMembers}"
+  ],
+  "status":{
+    "style":"STREAMING",
+    "url":"https://www.twitch.tv/FabioWolfen",
+    "text":"t.tv/FabioWolfen"
+  },
+  "Rich_Presence":{
+        "details": "Creating a RPC repo",
+        "state": "Coding",
+        "username": "Indy",
+        "file_username": "indyprofile",
+        "bannername": "Rich Presence",
+        "file_bannername": "background",
+        "maxpartysize": 100,
+        "countdown_start": 3600,
+        "Refresh": true,
+        "Refresh_time": 15
+    },
+    "database":{
+      "host": "localhost",
+      "database": "vcius",
+      "user":"root",
+      "password": "posen123",
+      "connectionLimit": 5
+    }
+}

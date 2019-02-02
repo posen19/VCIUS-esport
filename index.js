@@ -26,6 +26,7 @@ class DiscordBot extends Discord.Client {
         this.user.setPresence({
           game: {
             name: config.status.text,
+            url: config.status.url,
             type: config.status.style
           }
         })

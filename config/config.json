@@ -1,5 +1,4 @@
 {
-  "projectName":"VCIUS",
   "prefix":"!v",
   "prefixSeperated":true,
   "commands":[
@@ -17,14 +16,28 @@
     "${onlineMembers}",
     "${totalMembers}"
   ],
-  "scripts":{
-    "start":"pm2 start --name \"81491674\" node index.js",
-    "stop":"pm2 delete 81491674",
-    "logs":"pm2 logs 81491674 --nostream --json"
-  },
-  "name":"VCIUS",
   "status":{
-    "style":"WATCHING",
-    "text":"t.tv/FabioWolfen"
-  }
+    "style":"LISTENING",
+    "url":"https://i.imgur.com/jWr67J8.png",
+    "text":"!v help"
+  },
+  "Rich_Presence":{
+        "details": "Creating a RPC repo",
+        "state": "Coding",
+        "username": "Indy",
+        "file_username": "indyprofile",
+        "bannername": "Rich Presence",
+        "file_bannername": "background",
+        "maxpartysize": 100,
+        "countdown_start": 3600,
+        "Refresh": true,
+        "Refresh_time": 15
+    },
+    "database":{
+      "host": "localhost",
+      "database": "vcius",
+      "user":"root",
+      "password": "posen123",
+      "connectionLimit": 5
+    }
 }
